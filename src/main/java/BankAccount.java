@@ -32,7 +32,28 @@ public class BankAccount {
          */
     }
 
-    /*
-     * Implement getters and setters as appropriate for private variables.
-     */
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public BankAccountType getaccountType() {
+        return accountType;
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public double getInterestRate() {
+        return interestRate;
+    }
+
+    public double getInterestEarned() {
+        return interestEarned;
+    }
+
 }
